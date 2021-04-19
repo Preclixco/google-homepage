@@ -1,6 +1,18 @@
-a {
+.nav-a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
 }
 a:hover {
     text-decoration: underline;
+}
+.div-a-footer {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-color:rgb(242, 242, 242);
+    color:rgba(0, 0, 0, .54)
 }
