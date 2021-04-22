@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html lang="en_DK">
-    <head>
-        <link rel="stylesheet" href="style.css"
-        <!-- write link to font family--> 
-        <title>Google</title>
-    </head>
-    <body>
-        <nav>
-            <a class="nav-a" href="#">Gmail</a>
-            <a class="nav-a" href="#">Images</a>
-        </nav>
-        <main>
-            <img src="Img/Google-logo.png" alt="Google logo">
-            <div class="div-a-footer">
-                Denmark
+<html lang="en-DK">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css/forms.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css/typography.css"/>
+    <title>"Google Homepage"</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigation__click">
+            <a href="#" class="navigation__link">Gmail</a>
+            <a href="#" class="navigation__link">Images</a>
+        </div>
+        <div class="navigation__imgs">
+                <img src="img/apps_black_48dp.svg" alt="Menu icon" class="navigation__menu">
+                <img src="img/account_circle_black_48dp.svg" alt="Profile picture" class="navigation__profile-picture">
+        </div>
+    </nav>
+    <div class="google">
+        <img src="img/Google-logo.svg" alt="Google logo" class="google__logo">
+    </div>
+    <div class="search">
+        <form class="search__form">
+            <div class="search__box">
+                <img class="search__icon" src="img/search_black_48dp.svg" alt="Search icon">
+                <input class="search__input" type="text">
+            <div class="search__call-to-action">
+                <input type="submit" class="search__button" value="Google Search">
+                <input type="submit" class="search__button" value="I'm Feeling Lucky">
             </div>
-        </main>
-        <footer>
-            <div>
-                <a class="footer-a" href="#">About</a>
-                <a class="footer-a" href="#">Advertising</a>
-                <a class="footer-a" href="#">Business</a>
-                <a class="footer-a" href="#">How Search works</a>
             </div>
-            <div>  
-                <a class="footer-a" href="#">Privacy</a>
-                <a class="footer-a" href="#">Terms</a>
-                <a class="footer-a" href="#">Settings</a>
-            </div>
-        </footer>
-    </body>
+        </form>
+    </div>
+</body>
 </html>
