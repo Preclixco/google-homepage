@@ -27,6 +27,8 @@ body {
 
 .navigation__click {
   display: flex;
+  max-height: 3.58em;
+  margin-right: 13px;
 }
 
 .navigation__link {
@@ -45,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  max-height: 2.86em;
 }
 
 .navigation__menu {
@@ -93,7 +96,7 @@ body {
   position: relative;
   margin-top: -8px;
   text-align: center;
-  max-height: 120px;
+  max-height: 133px;
   padding: 10px;
 }
 
@@ -115,7 +118,7 @@ body {
   width: 100%;
   margin: auto;
   padding: 20px;
-  max-height: 140px;
+  max-height: 160px;
 }
 
 .search__box .search__input:hover {
@@ -162,6 +165,8 @@ body {
   display: flex;
   justify-content: center;
   line-height: 28px;
+  flex-grow: 1;
+  flex-shrink: 0;
   width: 100%;
   max-height: 11em;
   padding-top: 0px;
@@ -181,7 +186,7 @@ body {
 .language__link,
 .language__paragraph {
   font-size: 13px;
-  padding: 3px 3px;
+  padding: 0px 3px;
 }
 
 .language_paragraph {
@@ -197,6 +202,9 @@ body {
   flex-direction: column;
   flex-shrink: 0;
   overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  max-height: 95px;
 }
 
 .footer__location {
@@ -215,8 +223,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-size: 14px;
-  padding: 0 20px;
-  max-height: 138px;
+  padding: 0px 20px;
+  max-height: 47px;
   justify-content: space-between;
 }
 
@@ -225,6 +233,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   line-height: 17px;
+  max-height: 138px;
 }
 
 .footer__left--style:hover,
@@ -238,4 +247,6 @@ body {
   color: #70757a;
   display: block;
   padding: 15px;
+  padding-bottom: 15px;
+  max-height: 47px;
 }
